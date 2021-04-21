@@ -77,7 +77,8 @@ class SmsController extends Controller
      */
     public function show(Sms $sms)
     {
-        //
+        // updating show blade
+        return view('sms.show');
     }
 
     /**
